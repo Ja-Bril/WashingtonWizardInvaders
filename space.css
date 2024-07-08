@@ -1,0 +1,18 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+
+}
+
+#board{
+        background-image: url('./court.png');
+        background-size: 512px 512px;
+        background-repeat: no-repeat;
+    
+}
+.record {
+    color: red;
+    font-style: italic;
+    text-decoration-line:  underline;
+    font-weight: 900;
+}
