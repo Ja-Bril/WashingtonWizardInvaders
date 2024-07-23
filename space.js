@@ -60,13 +60,13 @@ window.onload = function() {
   
 
     shipImg = new Image();
-    shipImg.src = './wizards.png'
+    shipImg.src = './assets/wizards.png'
     shipImg.onload = function() {
         context.drawImage(shipImg, ship.x, ship.y, ship.width, ship.height)
     }
 
     alienImg = new Image();
-    alienImg.src = './trophy.png'
+    alienImg.src = './assets/trophy.png'
     createAliens();
 
     requestAnimationFrame(update)
